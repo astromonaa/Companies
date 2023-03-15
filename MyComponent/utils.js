@@ -9,7 +9,7 @@ export default function getTemplate() {
           input {
             font-size: 16px;
             padding: 4px;
-            width: 100%;
+            width: 95%;
           }
           
           .result {
@@ -27,7 +27,7 @@ export default function getTemplate() {
           }
           
           .row input, .row textarea {
-            width: 100%;
+            width: 95%;
           }
           .company-name {
             text-transform: uppercase;
