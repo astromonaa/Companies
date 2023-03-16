@@ -22,7 +22,7 @@ class MyElement extends HTMLElement {
   listen() {
     this.shadowRoot
       .querySelector("#party")
-      .addEventListener("input", (e) => this.onInput(e));
+      .addEventListener("keyup", (e) => this.onInput(e));
     this.searchedList.addEventListener('click', e => this.setCompanyData(e))
     this.setHelptText('Выберите варант или продолжите ввод')
     document.body.addEventListener('click', e => this.onBodyClick(e))
