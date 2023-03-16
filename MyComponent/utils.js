@@ -45,7 +45,7 @@ export default function getTemplate() {
           .search-data {
             display: none;
             border: 1px solid black;
-            width: 100%;
+            width: 95%;
             padding: 5px;
             position: absolute;
             top: 70px;
